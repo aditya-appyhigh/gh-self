@@ -48,7 +48,7 @@ jobs:
     runs-on: [self-hosted, linux]
     steps:
       - name: npm install -D
-        run: npm run install -D
+        run: npm install -D
 
       - name: npm build
         run: npm run build
