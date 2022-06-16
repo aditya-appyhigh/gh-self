@@ -50,6 +50,9 @@ jobs:
       - name: npm install -D
         run: npm install -D
 
+      - name: npm test
+        run: npm run test
+
       - name: npm build
         run: npm run build
 
